@@ -1,0 +1,34 @@
+name: daily_planner
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  table_calendar: ^3.0.0
+  fl_chart: ^0.69.0
+  flutter_local_notifications: ^17.2.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  leak_tracker: ^10.0.5
+  leak_tracker_flutter_testing: ^3.0.5
+  lints: ^5.0.0
+  string_scanner: ^1.2.0
+  material_color_utilities: ^0.11.1
+  meta: ^1.15.0
+  test_api: ^0.7.2
+  vm_service: ^14.2.5
+  collection: ^1.18.0
+  shared_preferences: ^2.0.10
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
